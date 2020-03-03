@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:padding="25dp"
+            android:src="@drawable/quiz"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="This Quiz consists of 3 different Sections Respectively :"
+            android:textStyle="italic"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Section I : 2 mark each and multiple answer correct"
+            android:textStyle="italic"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Section II : 1 mark each and single answer correct"
+            android:textStyle="italic"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Section III : 3 mark each and single answer correct"
+            android:textStyle="italic"
+
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:layout_gravity="center"
+android:text="All The Best!"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:text="Section I"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="What are the dairy products ?"
+            ></TextView>
+
+        <CheckBox
+            android:id="@+id/checkbox_meat"
+            android:padding="30dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:onClick="checkbox"
+            android:text="meat" />
+
+        <CheckBox
+            android:id="@+id/checkbox_cheese"
+            android:padding="30dp"
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:onClick="checkbox"
+            android:text="cheese" />
+
+        <CheckBox
+            android:id="@+id/checkbox_milk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+
+            android:layout_gravity="center"
+            android:onClick="checkbox"
+            android:text="milk" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:text="Section II"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text=" Country that has the highest Population?"
+            ></TextView>
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_gravity="center">
+
+
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onRadioButtonClicked"
+                android:padding="20dp"
+                android:text="China"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="onRadioButtonClicked"
+                android:padding="20dp"
+                android:text="India"></RadioButton>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="20dp"
+            android:text="Section I"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="What is 22/7 or 3.14 called in Maths ?"
+            android:textSize="20sp"></TextView>
+
+        <EditText
+            android:hint="In Text!"
+            android:id="@+id/textField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="text"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text=" Capital of India? "
+            android:textSize="20sp"></TextView>
+
+
+        <EditText
+            android:id="@+id/textField1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="In Text"
+            android:inputType="text"></EditText>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="submit"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/border"
+            android:onClick="submit"></Button>
+
+    </LinearLayout>
+
+
+</ScrollView>
