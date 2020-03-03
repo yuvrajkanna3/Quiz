@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     CheckBox milk;
     EditText editText;
     EditText editText1;
-    String compareText1 = "tan";
-    String compareText = "delhi";
+    String compareText1 = "delhi";
+    String compareText = "pi";
     String finalText1;
     String finalText;
     RadioButton button1;
