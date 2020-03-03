@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     CheckBox milk;
     EditText editText;
     EditText editText1;
-    String compareText1 = "tan";
-    String compareText = "delhi";
+    String compareText1 = "delhi";
+    String compareText = "pi";
     String finalText1;
     String finalText;
     RadioButton button1;
@@ -118,8 +118,8 @@ public class MainActivity extends AppCompatActivity {
         score = 0;
         editText.setText("");
         editText1.setText("");
-        ScrollView scrollView = findViewById(R.id.scrollView);
-        scrollView.smoothScrollTo(0, 0);
+        //ScrollView scrollView = findViewById(R.id.scrollView);
+        //scrollView.smoothScrollTo(0, 0);
     }
 
     public void reset(View view) {
